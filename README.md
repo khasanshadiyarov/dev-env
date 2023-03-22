@@ -2,9 +2,9 @@
 This is my personal pre-configured development environment, which is based on [Micro](https://micro-editor.github.io/) text editor.
 
 ## Contents
-- Introduction
-- Installation
-- Usage
+- [Introduction](#development-environment)
+- [Installation](#installation)
+- [Usage](#usage)
 
 ## Installation
 To install the development environment follow next steps:
