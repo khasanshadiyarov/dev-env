@@ -14,8 +14,10 @@ cd ~/.config/
 
 git clone https://github.com/khasanshadiyarov/dev-env.git micro
 ```
-2. Run curl to install the micro in the same directory
-```curl
+2. Run curl to install the micro
+```
+cd ~/.config/micro/
+
 curl https://getmic.ro | bash
 ```
 That's it, now you are ready to use the development environment by executing the Micro in your terminal.
