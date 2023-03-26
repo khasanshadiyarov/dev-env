@@ -18,7 +18,7 @@ git clone https://github.com/khasanshadiyarov/dev-env.git PROJECT_NAME
 ```
 2. Copy all directories from `/.config` to `~/.config` directory. Some tools (e.g. Micro) is pre-configured within the environment:
 ```
-cp -r ./config/* ~/.config/
+cp -r .config/* ~/.config/
 ```
 3. Add PATH to binary files. There are binary files for different OS under `/bin` directory, so add PATH according to your OS into `~/.bashrc` file:
 - Windows AMD64:
