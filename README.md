@@ -25,9 +25,9 @@ cp -r .config/* ~/.config/
 ```
 export PATH="$PATH:/YOUR_LOCATION/PROJECT_NAME/bin/windows-amd64"
 ```
-- MacOS ARM64:
+- MacOS AMD64:
 ```
-export PATH="$PATH:/YOUR_LOCATION/PROJECT_NAME/bin/macos-arm64"
+export PATH="$PATH:/YOUR_LOCATION/PROJECT_NAME/bin/macos-amd64"
 ```
 `YOUR_LOCATION` is the location where you cloned the repository, `PROJECT_NAME` is how you named the directory where the project files were cloned. See [installation](#installation).
 
