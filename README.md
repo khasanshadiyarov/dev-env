@@ -20,19 +20,19 @@ git clone https://github.com/khasanshadiyarov/dev-env.git PROJECT_NAME
 ```
 cp -r .config/* ~/.config/
 ```
-3. Add PATH to binary files. There are binary files for different OS under `/bin` directory, so add PATH according to your OS into `~/.bashrc` file:
+3. Add PATH to binary files. There are binary files for different OS under `/bin` directory, so add PATH according to your OS into `~/.bash_profile` file:
 - Windows AMD64:
 ```
 export PATH="$PATH:/YOUR_LOCATION/PROJECT_NAME/bin/windows-amd64"
 ```
-- MacOS ARM64:
+- MacOS AMD64:
 ```
-export PATH="$PATH:/YOUR_LOCATION/PROJECT_NAME/bin/macos-arm64"
+export PATH="$PATH:/YOUR_LOCATION/PROJECT_NAME/bin/macos-amd64"
 ```
 `YOUR_LOCATION` is the location where you cloned the repository, `PROJECT_NAME` is how you named the directory where the project files were cloned. See [installation](#installation).
 
 ## Usage
-After the environment is set up correctly, source your `~/.bashrc` or reopen the terminal and you will be able to call commands. Commands:
+After the environment is set up correctly, source your `~/.bash_profile` or reopen the terminal and you will be able to call commands. Commands:
 
 | Command | Description                |
 | :------ | :------------------------- |
