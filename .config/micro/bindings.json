@@ -1,4 +1,114 @@
 {
     "Alt-/": "lua:comment.comment",
-    "CtrlUnderscore": "lua:comment.comment"
+    "CtrlUnderscore": "lua:comment.comment",
+
+   	"Up": "CursorUp",
+	"Down": "CursorDown",
+	"Left": "CursorLeft",
+	"Right": "CursorRight",
+
+	"Ctrl-Alt-Up": "CursorPageUp",
+	"Ctrl-Alt-Down": "CursorPageDown",
+	"Ctrl-Up": "CursorStart",
+	"Ctrl-Down": "CursorEnd",
+	
+	"Ctrl-Shift-Up": "SelectToStart",
+	"Ctrl-Shift-Down": "SelectToEnd",
+	"Shift-Up": "SelectUp",
+	"Shift-Down": "SelectDown",
+	"Shift-Left": "SelectLeft",
+	"Shift-Right": "SelectRight",
+	"Ctrl-Shift-Left": "SelectToStartOfTextToggle",
+	"Alt-Shift-Right": "SelectWordRight",
+	"Alt-Shift-Left": "SelectWordLeft",
+	"Ctrl-Shift-Right": "SelectToEndOfLine",
+    "Tab": "Autocomplete|IndentSelection|IndentLine|InsertTab",
+	"Backtab": "OutdentSelection|OutdentLine",
+	"Ctrl-a": "SelectAll",
+	"Ctrl-Shift-Alt-Up": "SelectPageUp",
+	"Ctrl-Shift-Alt-Down": "SelectPageDown",
+
+	"Alt-Right": "WordRight",
+	"Alt-Left": "WordLeft",
+
+	"Alt-Up": "MoveLinesUp",
+	"Alt-Down": "MoveLinesDown",
+
+	"Alt-Backspace": "DeleteWordLeft",
+
+	"Enter": "InsertNewline",
+	"Backspace": "Backspace",
+	"Delete": "Delete",
+
+	"Ctrl-s": "Save",
+	"Alt-s": "SaveAll",
+	
+	"Alt-f": "Find",
+	"Ctrl-f": "FindLiteral",
+	"Ctrl-n": "FindNext",
+	"Ctrl-p": "FindPrevious",
+	
+	"Ctrl-z": "Undo",
+	"Ctrl-Shift-z": "Redo",
+	
+	"Ctrl-c": "CopyLine|Copy",
+	"Ctrl-x": "Cut",
+	"Ctrl-k": "CutLine",
+
+	"Ctrl-d": "DuplicateLine",
+	"Ctrl-Backspace": "DeleteLine",
+
+	"Ctrl-v": "Paste",
+	"Ctrl-a": "SelectAll",
+	
+	"Ctrl-o": "OpenFile",
+	
+	"Home": "Start",
+	"End": "End",
+	"PageUp": "PageUp",
+	"PageDown": "PageDown",
+
+	"Ctrl-Left": "StartOfLine",
+	"Ctrl-Right": "EndOfLine",
+	"Ctrl-Left": "StartOfText",
+	"Ctrl-Left": "StartOfTextToggle",
+
+	"Alt-n": "ParagraphNext",
+	"Alt-p": "ParagraphPrevious",
+
+	"Alt-h": "ToggleHelp",
+	"Alt-d": "ToggleDiffGutter",
+	"Alt-r": "ToggleRuler",
+
+	"Ctrl-g": "JumpLine",
+	
+	"Ctrl-b": "ShellMode",
+	"Ctrl-e": "CommandMode",
+	
+	"Ctrl-q": "Quit",
+	"Ctrl-Shift-q": "QuitAll",
+
+	"Ctrl-t": "AddTab",
+	"Ctrl-[": "PreviousTab",
+	"Ctrl-]": "NextTab",
+	"Alt-]": "NextSplit",
+	"Ctrl-Shift-v": "VSplit",
+	"Ctrl-Shift-h": "HSplit",
+	"Alt-[": "PreviousSplit",
+
+	"Ctrl-u": "ToggleMacro",
+	"Ctrl-j": "PlayMacro",
+	
+	"MouseWheelUp": "ScrollUp",
+	"MouseWheelDown": "ScrollDown",
+	
+	"Alt-s": "SpawnMultiCursor",
+	"Alt-Shift-Up": "SpawnMultiCursorUp",
+	"Alt-Shift-Down": "SpawnMultiCursorDown",
+	"Alt-m": "SpawnMultiCursorSelect",
+	"Alt-'": "RemoveMultiCursor",
+	"Alt-c": "RemoveAllMultiCursors",
+	"Alt-w": "SkipMultiCursor",
+	
+	"Alt-.": "JumpToMatchingBrace"
 }
