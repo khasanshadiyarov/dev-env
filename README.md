@@ -32,10 +32,10 @@ export PATH="$PATH:/YOUR_LOCATION/PROJECT_NAME/bin/macos-amd64"
 `YOUR_LOCATION` is the location where you cloned the repository, `PROJECT_NAME` is how you named the directory where the project files were cloned. See [installation](#installation).
 
 ### MacOS
-On MacOS configured key bindings require some adjustments in the System Settings, because some of key bindings are already taken by the MacOS itself. Follow the next step:
+MacOS default key bindings require some adjustments in System Settings, because some of key bindings are already used by MacOS itself. Follow the next step:
 1. Go to `System Settings > Keyboard > Keyboard Shortcuts > Mission Control`;
 2. Uncheck `Mission Control`, `Application Windows`, `Mission Control > Move left a space` and `Mission Control > Move right a space`.
-P.s. If you need these MacOS key bindings, reconfigure Micro text editor `bindings.json` for actions, which are bind to `Ctrl-Right/Left/Up/Down`.
+P.s. If you need default MacOS key bindings, reconfigure Micro text editor [`bindings.json`](.config/micro/bindings.json) for actions, which are bind to `Ctrl-Right/Left/Up/Down`.
 
 ## Usage
 After the environment is set up correctly, source your `~/.bash_profile` or reopen the terminal and you will be able to call commands. Commands:
