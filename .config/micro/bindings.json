@@ -89,8 +89,8 @@
 	"Ctrl-Shift-q": "QuitAll",
 
 	"Ctrl-t": "AddTab",
-	"Ctrl-[": "PreviousTab",
-	"Ctrl-]": "NextTab",
+	"Ctrl-LeftSq": "PreviousTab",
+	"Ctrl-RightSq": "NextTab",
 	"Alt-]": "NextSplit",
 	"Ctrl-Shift-v": "VSplit",
 	"Ctrl-Shift-h": "HSplit",
